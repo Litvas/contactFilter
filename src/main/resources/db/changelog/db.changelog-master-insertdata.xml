@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="litvas" id="20180912-1">
+
+        <insert tableName="contact">
+            <column name="name" value="vasya"/>
+        </insert>
+
+        <insert tableName="contact">
+            <column name="name" value="petya"/>
+        </insert>
+
+        <insert tableName="contact">
+            <column name="name" value="masha"/>
+        </insert>
+
+        <insert tableName="contact">
+            <column name="name" value="anya"/>
+        </insert>
+
+        <insert tableName="contact">
+            <column name="name" value="aliona"/>
+        </insert>
+
+        <insert tableName="contact">
+            <column name="name" value="asya"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
