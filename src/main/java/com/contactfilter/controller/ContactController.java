@@ -17,6 +17,7 @@ public class ContactController {
 
     @PostMapping(consumes = "application/json")
     public List<Contact> getAllContactsWithFilter(@RequestBody Map<String, String> requestMap) {
+        System.out.println(requestMap.get("nameFilter"));
         return contactFilterService.getAllContactsWithFilter(requestMap.get("nameFilter"));
     }
 }
